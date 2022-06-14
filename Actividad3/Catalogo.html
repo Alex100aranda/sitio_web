@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./catalogo.css">
+
+
+</head>
+<body>
+    <H2>CATALOGO</H2>
+
+   <table style="width: 100%;">
+
+<tr>
+<td>Clave 001</td>
+<td>Camara WI-FI</td>
+<td>$2900</td>
+</tr>
+
+<tr>
+ <td>Clave 002</td>
+ <td>Camara con sensor WI-FI</td>
+ <td>$3200</td>
+ </tr>
+
+ <tr>
+    <td>Clave 003</td>
+    <td>Doble Camara con sensor WI-FI</td>
+    <td>$4500</td>
+ </tr>
+
+ <tr>
+    <td>Clave 004</td>
+    <td>Triple Camara con sensor WI-FI</td>
+    <td>$4500</td>
+
+ </tr>
+ 
+ <tr>
+    <td>Clave 005</td>
+    <td>Ultra Camara Premium con sensor WI-FI</td>
+    <td>$7000</td>
+
+ </tr>
+  </table>
+
+
+
+
+</table>
+<br><br><br>
+<h2> Busqueda de Productos</h2>
+<br><br>
+<form action="busqueda.php" method="post">
+      <label for="inombre">Nombre:</label>
+      <input id="inombre" type="text" name="nom" value="" pattern="[a-zA-Z]+"/> 
+	  <label for="ides">Descripcion:</label>
+      <input id="ides" type="text" name="descripcion" />
+	  <label for="ipres">Presentacion:</label>
+      <input id="ipres" type="text" name="presentacion" value=""/> 
+	   <label for="iprecio">Precio:</label>
+      <input id="iprecio" type="text" name="precio" value=""/> 
+	   <label for="icantida">Cantidad:</label>
+      <input id="icantidad" type="text" name="cantidad" value=""/> <br><br>
+	  <input type="submit"  name="buscar" value="Buscar"/>
+	  <input type="reset"  name="cancelar" value="Cancelar"/>
+
+</form>
+<table>
+
+   <table>
+      <tr>
+              <th>Nombre del producto </th>
+             <th>Descripcion del producto </th>
+             <th>Presentacion </th>
+             <th>Precio </th>
+             <th>Cantidad </th>
+          </tr>
+          
+      </table>
+
+<br><br>
+
+    <footer> 
+        <p>    Alejandro Hernandez Aranda PW1     </p>
+    </footer>
+
+</body>
+</html>
